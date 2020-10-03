@@ -1,0 +1,114 @@
+.row-header{
+    margin:10px 10px 10px 10px;
+    padding:0px auto;
+
+}
+
+.row-content {
+    margin:10px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.footer{
+    background-color: cornflowerblue;
+    margin:100px auto;
+    padding: 20px 0px 20px 0px;
+    color : white;
+
+}
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background: white;
+    /*color:black;*/
+    font-family: Comic Sans MS;
+}
+
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+
+.navbar-dark {
+    background-color: cornflowerblue;
+    color:white;
+}
+.navbar-brand {
+    color: white;
+}
+
+.btn-out {
+    color: white;
+    border-color: white;
+    background-color: transparent;
+    margin:10px 10px 10px 0px ;
+}
+
+.btn-out:hover {
+    background-color: cornflowerblue;
+    border-color: white;
+    filter: brightness(110%);
+}
+.btn-out:focus {
+    background-color: cornflowerblue;
+    border-color: white;
+    filter: brightness(110%);
+}
+
+
+.btn-1 {
+    color: white;
+    border-color: cornflowerblue;
+    background-color: cornflowerblue;
+    margin:10px 10px 10px 0px ;
+    width: 100px;
+}
+.btn-1:hover {
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
+    filter: brightness(110%);
+}
+
+
+.btn-2 {
+    color: white;
+    border-color: white;
+    background-color: transparent;
+    margin:10% 2% 10% 2%;
+    padding: 2% 10% 2% 10%;
+    border-width: thick;
+    font-size: 200%;
+    width: 350px;
+    font-family: Comic Sans MS;
+}
+
+
+.btn-2:hover {
+    background-color: transparent;
+    border-color: floralwhite;
+    color: floralwhite;
+
+}
+
+.btn-2:focus{
+    background-color: transparent;
+    border-color: white;
+}
+
+.text-danger{
+    font-size: small;
+}
+
+.card-img-overlay{
+    margin-top: 20%;
+}
+.links{
+    color: white;
+}
+.links:hover{
+    color:white;
+    text-decoration: none;
+}
