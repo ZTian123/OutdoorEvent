@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, CardImg, CardImgOverlay,} from 'reactstrap';
 
 import {Button} from 'reactstrap';
-import {Link, NavLink} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 
 const RenderCard = () => {

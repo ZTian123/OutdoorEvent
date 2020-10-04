@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
 import Home from './HomeComponent';
 import EventList from './EventListComponent';
-import { EVENTS } from '../shared/events';
 
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import Contact from "./ContactComponent";
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
+import { EVENTS } from '../shared/events';
 import EventDetail from "./EventDetailComponent";
-// import { connect } from 'react-redux';
+import { connect } from 'react-redux';
 import Account from "./AccountComponent";
 import NewEvent from "./CreateEventComponent";
 
 // link the state from reducer
-// const mapStateToProps = state => {
-//     return {
-//         events: state.events,
-//     }
-// }
+const mapStateToProps = state => {
+    return {
+        events: state.events,
+    }
+}
 
 
 
@@ -65,5 +65,5 @@ class Main extends Component {
 }
 
 // linked page with reducer
-// export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Main));
-export default withRouter(Main);
+export default withRouter(connect(mapStateToProps)(Main));
+// export default withRouter(Main);
